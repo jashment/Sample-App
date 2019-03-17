@@ -1,42 +1,42 @@
 
-# Created by https://www.gitignore.io/api/cordova,windows
-# Edit at https://www.gitignore.io/?templates=cordova,windows
+# # Created by https://www.gitignore.io/api/cordova,windows
+# # Edit at https://www.gitignore.io/?templates=cordova,windows
 
-### Cordova ###
-# gitignore template for the Cordova framework
-# website: https://cordova.apache.org/
-#
-# Recommended template: Node.gitignore
+# ### Cordova ###
+# # gitignore template for the Cordova framework
+# # website: https://cordova.apache.org/
+# #
+# # Recommended template: Node.gitignore
 
-# App platform binaries and built files
-/platforms
+# # App platform binaries and built files
+# /platforms
 
-# Optional to ignore plugin Git clones
-#/plugins
+# # Optional to ignore plugin Git clones
+# #/plugins
 
-### Windows ###
-# Windows thumbnail cache files
-Thumbs.db
-ehthumbs.db
-ehthumbs_vista.db
+# ### Windows ###
+# # Windows thumbnail cache files
+# Thumbs.db
+# ehthumbs.db
+# ehthumbs_vista.db
 
-# Dump file
-*.stackdump
+# # Dump file
+# *.stackdump
 
-# Folder config file
-[Dd]esktop.ini
+# # Folder config file
+# [Dd]esktop.ini
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# # Recycle Bin used on file shares
+# $RECYCLE.BIN/
 
-# Windows Installer files
-*.cab
-*.msi
-*.msix
-*.msm
-*.msp
+# # Windows Installer files
+# *.cab
+# *.msi
+# *.msix
+# *.msm
+# *.msp
 
-# Windows shortcuts
-*.lnk
+# # Windows shortcuts
+# *.lnk
 
-# End of https://www.gitignore.io/api/cordova,windows
+# # End of https://www.gitignore.io/api/cordova,windows
