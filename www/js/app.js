@@ -28,8 +28,13 @@ var app = {
         listeningElement.setAttribute('style', 'display:none;');
         receivedElement.setAttribute('style', 'display:block;');
 
-        //Event Called
-        //console.log('Received Event: ' + id);
+        document.addEventListener("deviceready", onDeviceReady, false);
+            function onDeviceReady() {
+                document.getElementById('geoTag').innerHTML = device.platform + device.model + device.version + device.manufacturer;
+            }
+
+        // Event Called
+        console.log('Received Event: ' + id);
         
     }
 };
@@ -38,3 +43,4 @@ function onBatteryStatus(status) {
     console.log("Level: " + status.level + " isPlugged: " + status.isPlugged);
     $('.battery-status').text("Battery Level: " + status.level + "% Plugged in: " + status.isPlugged);
 }
+
