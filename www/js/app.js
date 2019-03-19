@@ -30,7 +30,10 @@ var app = {
 
         document.addEventListener("deviceready", onDeviceReady, false);
             function onDeviceReady() {
-                document.getElementById('geoTag').innerHTML = device.platform + device.model + device.version + device.manufacturer;
+                document.getElementById('devTag1').innerHTML = device.platform;
+                document.getElementById('devTag2').innerHTML = device.model;
+                document.getElementById('devTag3').innerHTML = device.version;
+                document.getElementById('devTag4').innerHTML = device.manufacturer;
             }
 
         // Event Called
